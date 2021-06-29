@@ -1,4 +1,6 @@
-git init . - create repository
-git add * - add files
+git init . -- create repository
+git add * -- add files
 git status 
-git commit -m "STH" - comments
+git commit -m "STH" -- comments
+git push -- send in remote repository
+git log -1 -p -- check your commits
