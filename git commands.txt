@@ -10,3 +10,7 @@ git checkout branches_name    -- change branch
 git branch -d branches_name   -- delete branch
 git checkout -b branches_name -- create and switch on new branch immediately
 git merge branches_name       -- join support branch to master
+git checkout commit_hash      -- switch on exact commit  
+git commit --amend            -- change commit without resaving
+git reset --hard HEAD~num     -- delete num commits and changes
+git reset --soft HEAD~num     -- delete num commits without changes
