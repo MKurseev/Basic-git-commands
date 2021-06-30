@@ -17,3 +17,4 @@ git reset --soft HEAD~num     -- delete num commits without changes
 
 
 git push --set-upstream origin branch_name -- add new branch in github
+git push origin --delete branch_name       -- delete branch remotely
